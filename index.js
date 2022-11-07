@@ -1,10 +1,18 @@
 
 // document.getElementById("count-el").innerText = 5;
 
-let count = 5;
+// let firstBatch = 5;
 
-console.log(count);
+// let secondBatch = 7;
+
+// let count = firstBatch + secondBatch;
+
+// console.log(count);
 
 let myAge = 19;
 
-console.log(myAge);
+let humanDogRatio = 7;
+
+let myDogAge = myAge * humanDogRatio;
+
+console.log(myDogAge);
