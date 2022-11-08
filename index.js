@@ -4,4 +4,4 @@ let name = "Jakub";
 let greetign = "Owczarek";
 
 let fullName = name + ' ' + greetign;
-welcomeEl.innerText = fullName;
+welcomeEl.innerText = fullName + "😎";
