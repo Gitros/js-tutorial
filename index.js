@@ -1,5 +1,6 @@
 let saveBtn = document.getElementById("save-btn")
 let countEl = document.getElementById("count-el");
+let saveEl = document.getElementById("save-el");
 let count = 0;
 
 function increment() {
@@ -8,7 +9,7 @@ function increment() {
 }
 
 function save() {
-
+    saveEl.innerText = count;
     console.log(count);
     
 }
