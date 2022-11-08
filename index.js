@@ -1,15 +1,12 @@
-/* let lapsCompleted = 0;
 
-    function laps() {
-        lapsCompleted = lapsCompleted++;
-    }
+let countEl = document.getElementById("count-el");
 
-console.log(lapsCompleted); */
+console.log(countEl);
 
 let count = 0;
 
 function increment() {
-
     count++;
+    countEl.innerText = count;
     console.log(count);
 }
