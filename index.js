@@ -3,6 +3,7 @@ let secondCard = 11;
 
 let sum = firstCard + secondCard;
 let hasBlackJack = false;
+let isAlive = true;
 
 
 if (sum <= 20) {
@@ -12,6 +13,8 @@ if (sum <= 20) {
     hasBlackJack = true;
 } else {
     console.log("youre out");
+    isAlive = false;
 }
 
 console.log(hasBlackJack);
+console.log(isAlive);
