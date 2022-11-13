@@ -4,17 +4,19 @@ let secondCard = 11;
 let sum = firstCard + secondCard;
 let hasBlackJack = false;
 let isAlive = true;
+let message = "";
 
 
 if (sum <= 20) {
-    console.log("do you want to draw a new card?");
+    message = "do you want to draw a new card?";
 } else if (sum === 21) {
-    console.log("blackjack gj");
+    message = "blackjack gj";
     hasBlackJack = true;
 } else {
-    console.log("youre out");
+    message = "youre out";
     isAlive = false;
 }
 
 console.log(hasBlackJack);
 console.log(isAlive);
+console.log(message);
