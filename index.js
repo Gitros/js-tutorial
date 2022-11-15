@@ -23,3 +23,10 @@ function startGame() {
     }
     messageEL.textContent = message;
 }
+
+function newCard() {
+    console.log("drawing a new card from the deck");
+    let card = 7;
+    sum += card;
+    startGame();
+}
