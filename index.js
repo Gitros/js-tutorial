@@ -1,3 +1,5 @@
+const messageEL = document.getElementById("message-el");
+
 let firstCard = 10;
 let secondCard = 11;
 
@@ -16,5 +18,5 @@ function startGame() {
         message = "youre out";
         isAlive = false;
     }
-console.log(message);
+    messageEL.textContent = message;
 }
