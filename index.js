@@ -52,3 +52,7 @@ let newmessage = "same here";
 messages.push(newmessage);
 
 console.log(messages);
+
+messages.pop();
+
+console.log(messages);
