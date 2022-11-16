@@ -36,10 +36,19 @@ function newCard() {
     renderGame();
 }
 
-// arrays ordered lists of items
-
 let cards1 = [7,4];
 
-cards1.push(6);
+cards.push(6);
 
 console.log(cards1);
+
+let messages = ["Hey how is it going",
+"im great",
+"cool"
+];
+
+let newmessage = "same here";
+
+messages.push(newmessage);
+
+console.log(messages);
