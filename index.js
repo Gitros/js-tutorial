@@ -38,15 +38,4 @@ function newCard() {
 
 // arrays ordered lists of items
 
-let featuredPosts = ["Check out my netflix clone", 
-"Here's code for my project",
-"I've just relunched my portfolio"
-];
-
-let experience = ["Chief at restaurant `Piccolo Ropczyce`",
-"ZSAT Ropczyce",
-"driver's license cat. B, Technic Informatic",
-"Using js, CSS, HTML, PHP, MYSQL"
-];
-console.log(experience[1]);
-console.log(experience[2]);
+let per = ["Per Harald Borgen", 35, true];
