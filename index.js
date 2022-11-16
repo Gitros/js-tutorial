@@ -38,4 +38,8 @@ function newCard() {
 
 // arrays ordered lists of items
 
-let per = ["Per Harald Borgen", 35, true];
+let cards1 = [7,4];
+
+cards1.push(6);
+
+console.log(cards1);
