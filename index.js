@@ -35,24 +35,3 @@ function newCard() {
     sum += card;
     renderGame();
 }
-
-let cards1 = [7,4];
-
-cards.push(6);
-
-console.log(cards1);
-
-let messages = ["Hey how is it going",
-"im great",
-"cool"
-];
-
-let newmessage = "same here";
-
-messages.push(newmessage);
-
-console.log(messages);
-
-messages.pop();
-
-console.log(messages);
