@@ -45,3 +45,8 @@ function newCard() {
     renderGame();
 }
 
+// random numbers
+
+let randomNumber = Math.floor(3.45632);
+
+console.log(randomNumber);
