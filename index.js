@@ -45,13 +45,3 @@ function newCard() {
     renderGame();
 }
 
-// random numbers
-
-function rollDice() {
-    let randomNumber = Math.floor(Math.random() * 6) + 1;
-    return randomNumber;
-}
-
-let random = rollDice();
-
-console.log(random);
