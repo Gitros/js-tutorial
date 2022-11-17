@@ -56,15 +56,3 @@ function newCard() {
     renderGame();
 }
 
-// smth else
-
-let likesDocumentaries = false;
-let likesStartups = true;
-
-if (likesDocumentaries === false || likesStartups === true) {
-    recommendMovie()
-}
-
-function recommendMovie() {
-    console.log("hey check out this new film we think you will like!");
-}
