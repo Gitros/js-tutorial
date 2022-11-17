@@ -47,6 +47,11 @@ function newCard() {
 
 // random numbers
 
-let randomNumber = Math.floor(Math.random() * 6);
+function rollDice() {
+    let randomNumber = Math.floor(Math.random() * 6) + 1;
+    return randomNumber;
+}
 
-console.log(randomNumber);
+let random = rollDice();
+
+console.log(random);
