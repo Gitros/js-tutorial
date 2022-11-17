@@ -40,8 +40,3 @@ function newCard() {
 
 // smth else
 
-let cardsi = [7,3,9];
-
-for (let i = 0; i <cardsi.length; i++) {
-    console.log(cardsi[i]);
-}
