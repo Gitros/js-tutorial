@@ -1,17 +1,20 @@
 const messageEL = document.getElementById("message-el");
 const sumEl = document.querySelector("#sum-el");
 const cardsEl = document.querySelector("#cards-el");
-const playerEl = document.getElementById("player-el");
+let playerEl = document.getElementById("player-el");
 
-let playerName = "per";
-let PlayerChips = 145;
 let cards = [];
 let sum = 0;
 let hasBlackJack = false;
 let isAlive = false;
 let message = "";
 
-playerEl.textContent = playerName + ": $" + PlayerChips
+let player = {
+    name: "per",
+    chips: 145
+};
+
+playerEl.textContent = player.name + ": $" + player.chips;
 
 function getRandomCard() {
     let randomCard = Math.floor(Math.random()*13)+1;
