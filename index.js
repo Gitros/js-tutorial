@@ -38,11 +38,3 @@ function newCard() {
     renderGame();
 }
 
-// smth else
-
-let sentence = ["hello", "my", "name", "is", "Per"];
-let greetingsEl = document.getElementById("greeting-el");
-
-for (i = 0; i < sentence.length; i++) {
-    greetingsEl.textContent += sentence[i] + " ";
-}
