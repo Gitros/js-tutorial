@@ -13,7 +13,13 @@ let message = "";
 
 function getRandomCard() {
     let randomCard = Math.floor(Math.random()*13)+1;
-    return randomCard;
+    if (randomCard > 10) {
+        return 10;
+    } else if ( randomCard === 1){
+        return 11;
+    }else {
+    return randomCard
+}
 }
 
 function startGame() {
