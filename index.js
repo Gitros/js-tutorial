@@ -47,6 +47,6 @@ function newCard() {
 
 // random numbers
 
-let flooredNumber = Math.floor(3.45632);
+let randomNumber = Math.floor(Math.random() * 6);
 
-console.log(flooredNumber);
+console.log(randomNumber);
