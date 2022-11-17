@@ -60,6 +60,14 @@ function getFastestRaceTime() {
     }
 }
 
+function totalRaceTime() {
+    return player1Time + player2Time;
+}
+
+let totalTime = totalRaceTime();
+
+console.log(totalTime);
+
 let fastestRace = getFastestRaceTime();
 
 console.log(fastestRace);
