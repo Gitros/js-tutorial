@@ -12,7 +12,7 @@ let isAlive = true;
 let message = "";
 
 function getRandomCard() {
-    
+    return 5;
 }
 
 function startGame() {
