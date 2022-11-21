@@ -18,27 +18,32 @@ playerEl.textContent = player.name + ": $" + player.chips;
 
 function getRandomCard() {
     let randomCard = Math.floor(Math.random()*13)+1;
+
     if (randomCard > 10) {
         return 10;
+        
     } else if ( randomCard === 1){
         return 11;
     }else {
-    return randomCard
-}
+        return randomCard
+    }
 }
 
 function startGame() {
     isAlive = true;
-
+    
     let firstCard = getRandomCard();
     let secondCard = getRandomCard();
+
     cards = [firstCard, secondCard]
     sum = firstCard + secondCard;
+
     renderGame();
 }
 
 function renderGame() {
     cardsEl.textContent = "Cards: ";
+    
     for (i = 0; i < cards.length; i++) {
         cardsEl.textContent += cards[i] + " ";
     }
@@ -57,11 +62,11 @@ function renderGame() {
 
 function newCard() {
     if (isAlive === true && hasBlackJack === false) {
-    let card = getRandomCard();
-    sum += card;
-    cards.push(card);
-    console.log(cards);
-    renderGame();
-}
+        let card = getRandomCard();
+        sum += card;
+        cards.push(card);
+        console.log(cards);
+        renderGame();
+    }
 }
 
