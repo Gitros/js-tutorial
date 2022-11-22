@@ -72,11 +72,3 @@ function newCard() {
 
 // 
 
-let largeCountries = ["Tuvalu","india","usa","indonesia","Monaco"]
-
-largeCountries.pop()
-largeCountries.push("Pakistan");
-largeCountries.shift();
-largeCountries.unshift("China");
-console.log(largeCountries);
-
