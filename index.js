@@ -71,16 +71,3 @@ function newCard() {
 }
 
 // 
-const personEl = document.getElementById("person-el")
-
-let person = {
-    name: "Jakub",
-    age: 19, 
-    country: "poland"
-}
-
-function logData() {
-    personEl.textContent = "Per " + person.name + " is " + person.age + " and lives in " + person.country;
-}
-
-logData()
