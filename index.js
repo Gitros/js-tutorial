@@ -72,3 +72,19 @@ function newCard() {
 
 // 
 
+let fruit = ["🍕", "🍔", "🍕", "🍕", "🍔"];
+
+let appleShelf = document.getElementById("apple-shelf");
+let orangeShelf = document.getElementById("orange-shelf");
+
+function Shelfing() {
+    for (let x = 0; x < fruit.length; x++) {
+        if (fruit[x] === "🍕"){
+            appleShelf.textContent += "🍕";
+        } else if (fruit[x] === "🍔") {
+            orangeShelf.textContent += "🍔";
+        }
+    }
+}
+
+Shelfing();
