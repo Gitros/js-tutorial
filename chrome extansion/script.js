@@ -8,3 +8,6 @@ inputBtn.addEventListener("click", function(){
 
 const box = document.getElementById("box");
 
+function openTheBox() {
+    return console.log("i want to open the box!");
+}
