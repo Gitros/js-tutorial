@@ -7,3 +7,8 @@ inputBtn.addEventListener("click", function(){
     myLeads.push(inputEl.value)
     console.log("Button clicked");
 })
+
+for (let i = 0; i < myLeads.length; i++) {
+    console.log(myLeads[i]);
+    
+}
