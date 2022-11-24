@@ -6,7 +6,7 @@ const myLeads = ["aesada4214@fsda"];
 
 inputBtn.addEventListener("click", function(){
     myLeads.push(inputEl.value)
-    console.log("Button clicked");
+    inputEl.value = "";
     renderLeads();
 })
 
