@@ -2,7 +2,7 @@ const inputBtn = document.getElementById("input-btn");
 const inputEl = document.getElementById("input-el");
 const ulEl = document.getElementById("ul-el");
 
-const myLeads = [];
+const myLeads = ["aesada4214@fsda"];
 
 inputBtn.addEventListener("click", function(){
     myLeads.push(inputEl.value)
@@ -11,5 +11,6 @@ inputBtn.addEventListener("click", function(){
 
 for (let i = 0; i < myLeads.length; i++) {
     console.log(myLeads[i]);
+    ulEl.innerHTML += "<li>" + myLeads[i] + "</li>" ;
     
 }
