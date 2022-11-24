@@ -7,10 +7,15 @@ const myLeads = ["aesada4214@fsda"];
 inputBtn.addEventListener("click", function(){
     myLeads.push(inputEl.value)
     console.log("Button clicked");
+    renderLeads();
 })
 
-for (let i = 0; i < myLeads.length; i++) {
-    console.log(myLeads[i]);
-    ulEl.innerHTML += "<li>" + myLeads[i] + "</li>" ;
-    
+const renderLeads = () => {
+    let listItems = "";
+    for (let i = 0; i < myLeads.length; i++) {
+        listItems += "<li>" + myLeads[i] + "</li>" ;
+        
+    }
+
+    ulEl.innerHTML = listItems; 
 }
