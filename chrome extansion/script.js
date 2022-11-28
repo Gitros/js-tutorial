@@ -23,13 +23,3 @@ const renderLeads = () => {
 
     ulEl.innerHTML = listItems; 
 }
-
-//
-
-const recipient = "James";
-
-const sender = "jakub";
-
-const email = `hey ${recipient} How is it going Cheers ${sender}`
-
-console.log(email);
