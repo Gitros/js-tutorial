@@ -18,8 +18,16 @@ const renderLeads = () => {
             <a target = '_blank' href = '${myLeads[i]}'>"
                  ${myLeads[i]}
              "</a>
-        </li>` ;
+        </li>` 
     }
 
     ulEl.innerHTML = listItems; 
 }
+
+//
+
+const recipient = "James";
+
+const email = `hey ${recipient} How is it going`
+
+console.log(email);
