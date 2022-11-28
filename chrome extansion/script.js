@@ -28,6 +28,8 @@ const renderLeads = () => {
 
 const recipient = "James";
 
-const email = `hey ${recipient} How is it going`
+const sender = "jakub";
+
+const email = `hey ${recipient} How is it going Cheers ${sender}`
 
 console.log(email);
